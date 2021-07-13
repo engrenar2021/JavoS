@@ -1,0 +1,31 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        restart: on-failure
+        ports:
+            - "4001:8081"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+            - ./javos:/javos
+    php:
+        build:
+            context: .
+            dockerfile: PHP.Dockerfile
+        ports:
+            - "9003:9003"
+        volumes:
+            - ./javos:/javos
+    mysql:
+        image: mysql:latest
+        container_name: mysqljavos
+        environment: 
+            MYSQL_ROOT_PASSWORD: 'myteste'
+            MYSQL_DATABASE: 'javos'
+        volumes:
+            - ./javos.sql:/docker-entrypoint-initdb.d/javos.sql
+            - mysqldata:/var/lib/mysql
+        ports:
+            - "3306:3306"
+volumes:
+    mysqldata: {}

@@ -1,0 +1,32 @@
+# Created by https://www.toptal.com/developers/gitignore/api/codeigniter
+# Edit at https://www.toptal.com/developers/gitignore?templates=codeigniter
+
+### CodeIgniter ###
+*/javos/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+javos/app/logs/*
+!javos/app/logs/index.html
+!javos/app/logs/.htaccess
+javos/app/data/*
+/vendor/
+
+### CodeIgniter Patch ###
+
+# End of https://www.toptal.com/developers/gitignore/api/codeigniter
+
+### SSH ###
+**/.ssh/id_*
+**/.ssh/*_id_*
+**/.ssh/known_hosts
+**/.ssh/*.pem

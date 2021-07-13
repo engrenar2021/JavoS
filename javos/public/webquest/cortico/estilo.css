@@ -1,0 +1,9 @@
+<style>body{font: 15pt "verdana"; color: blue;background:peachpuff;
+background:url("imagens/labvazio.jpg") repeat-x right center;}
+
+h1{font:25pt "arial";color:blue; font-weight:bold;}
+h2{font:15pt "arial";color:blue; ;font-weight:normal;}
+h3{font:14pt "verdana";color:black; font-weight:normal;text-decoration:none;}
+a{font: 15pt "arialblack"; color="blue"; font-weight:bold;text-decorations:none;}
+a:hover{font:15pt "comics";color:"green"; text-decorations:bold;}
+</style>
