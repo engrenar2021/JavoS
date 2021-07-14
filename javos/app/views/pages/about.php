@@ -1,6 +1,6 @@
 <section class="page-section">
   <h1>Sobre</h1>
-  <p>A plataforma GeraJa tem como objetivo contribuir com a criação de atividades acessíveis para estudantes em geral, tanto por meio de jogos para ver, como para ouvir. Estudantes com deficiência física, visual ou mesmo intelectual podem jogar junto com quem tem ou não deficiência, em uma proposta que contempla o Desenho Universal para a Aprendizagem na escola regular.</p>
+  <p>A plataforma JavoS tem como objetivo contribuir com a criação de atividades acessíveis para estudantes em geral, tanto por meio de jogos para ver, como para ouvir. Estudantes com deficiência física, visual ou mesmo intelectual podem jogar junto com quem tem ou não deficiência, em uma proposta que contempla o Desenho Universal para a Aprendizagem na escola regular.</p>
 
   <p>Foi criada a partir dos estudos do grupo de pesquisa AcessibilidadeTIC, financiado pelo CNPq em que participam estudantes do Instituto Federal de São Paulo - campus Guarulhos, educadores e alunos de escolas públicas de Boituva, Guarulhos e São Paulo.</p>
 
