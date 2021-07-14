@@ -66,3 +66,30 @@ Ambiente de produção
 
                 Para alterar estas regras: https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#SecurityGroup:groupId=sg-0d8090f25aea6c3ba
 
+
+Alterar senha de usuário
+
+    Acessar https://javos.com.br/phpminiadmin.php e pegar o ID do seu usuário.
+
+    Executar na linha de comando:
+    php7.4 changepassword.php
+
+    Informar o e-mail
+    Informar a nova senha
+    informar o ID (que vc pegou acima)
+
+    Pegue o SQL e execute no phpminiadmin
+
+
+Para tornar algum usuário admin no JavoS
+
+    Acessar https://javos.com.br/phpminiadmin.php e pegar o ID do usuário que se deseja tornar admin.
+
+    No phpminiadmin --> show tables --> users_admin
+
+    Executar o seguinte SQL:
+
+    INSERT INTO `users_admin` (`uid`)
+    VALUES ('id do usuário')
+
+    Clicar em "Go"
